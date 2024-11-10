@@ -2,13 +2,16 @@
 #define GRAPH_H
 
 #include <stdbool.h>
+#include <limits.h>
 
+#define INF INT_MAX
 #define MAX_NODES 100
 
 // Estrutura para o Grafo
 typedef struct {
     int numVertices;
     int adjMatrix[MAX_NODES][MAX_NODES];
+    int heuristic[MAX_NODES];
 } Graph;
 
 // Funções para o Grafo

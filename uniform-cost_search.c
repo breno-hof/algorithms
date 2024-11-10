@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include "./data_structures/graph.h"
 #include "./data_structures/priority_queue.h"
-#include <limits.h>
-
-#define MAX_NODES 100
-#define INF INT_MAX
 
 // Função para Busca em Custo Uniforme (UCS)
 void UCS(Graph *graph, int startVertex, int goalVertex) {

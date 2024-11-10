@@ -1,7 +1,4 @@
 #include "graph.h"
-#include "limits.h"
-
-#define INF INT_MAX
 
 // Inicializa o grafo
 void initGraph(Graph *graph, int vertices) {
@@ -10,6 +7,7 @@ void initGraph(Graph *graph, int vertices) {
         for (int j = 0; j < vertices; j++) {
             graph->adjMatrix[i][j] = (i == j) ? 0 : INF;
         }
+        graph->heuristic[i] = INF;
     }
 }
 

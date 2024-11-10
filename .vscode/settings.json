@@ -3,6 +3,7 @@
         "queue.h": "c",
         "stdio.h": "c",
         "limits.h": "c",
-        "priority_queue.h": "c"
+        "priority_queue.h": "c",
+        "graph.h": "c"
     }
 }
