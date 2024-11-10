@@ -14,5 +14,6 @@ typedef struct {
 // Funções para o Grafo
 void initGraph(Graph *graph, int vertices);
 void addEdge(Graph *graph, int src, int dest);
+void addWeightedEdge(Graph *graph, int src, int dest, int cost);
 
 #endif

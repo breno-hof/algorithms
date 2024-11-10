@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "queue.h": "c",
+        "stdio.h": "c",
+        "limits.h": "c",
+        "priority_queue.h": "c"
+    }
+}
